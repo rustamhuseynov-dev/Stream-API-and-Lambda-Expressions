@@ -22,7 +22,6 @@ public class IteratorTest {
         while (iterator.hasNext()){
             Integer element = iterator.next();
             System.out.println(element);
-            list.add(10);
         }
     }
 }
